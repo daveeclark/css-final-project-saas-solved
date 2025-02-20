@@ -41,10 +41,58 @@ body {
   list-style-type: none;
   gap: 20px;
 }
+
 .top-nav ul li {
   text-align: right;
 }
-
+.top-nav:hover {
+  color: #2476ff;
+}
+.topNav-home {
+  width: 40px;
+  height: 17px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.94px;
+  color: #677788;
+}
+.topNav-features {
+  width: 59px;
+  height: 17px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.94px;
+  color: #677788;
+}
+.topNav-learn {
+  width: 38px;
+  height: 17px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.94px;
+  color: #677788;
+}
+.topNav-pricing {
+  width: 47px;
+  height: 17px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.94px;
+  color: #677788;
+}
+.topNav-hire {
+  width: 47px;
+  height: 17px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.94px;
+  color: #677788;
+}
 .buy-now-btn {
   display: flex;
   align-items: center;
@@ -55,6 +103,11 @@ body {
   padding: 15px 25px;
   background-color: #2476ff;
 }
+.buy-now-btn:hover {
+  background-color: #ffffff;
+  color: #2476ff;
+  border: 1px solid #2476ff;
+}
 .buy-now-content {
   width: 52px;
   height: 15px;
@@ -64,7 +117,9 @@ body {
   line-height: 14.52px;
   color: #ffffff;
 }
-
+/* .buy-now-content:hover {
+  color: #2476ff;
+} */
 .hero-section {
   display: flex;
   height: 446px;
@@ -104,7 +159,7 @@ body {
 .act {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 482px;
   height: 48px;
   gap: 24px;
 }
@@ -119,7 +174,8 @@ body {
   background-color: #2476ff;
 }
 .play-btn-content {
-  width: 78px;
+  display: flex;
+  width: 80px;
   height: 17px;
   font-family: Inter;
   font-weight: 700;
@@ -344,7 +400,9 @@ body {
   height: 452px;
   padding: 40px;
   gap: 50px;
-  border: 1px #e2e2e2 solid;
+}
+.pricing-plan:hover {
+  box-shadow: 0px 4px 10px;
 }
 .plan-header {
   display: flex;
@@ -403,7 +461,7 @@ body {
   display: flex;
   width: 137px;
   height: 48px;
-  gap: 30px;
+  gap: 8px;
   border-radius: 30px;
   padding: 15px 25px;
   background-color: #2476ff;
@@ -412,17 +470,16 @@ body {
   display: flex;
   width: 18px;
   height: 18px;
-  border-radius: 50%;
   font-weight: 900;
   font-size: 18px;
   line-height: 18px;
-  background-color: #ffffff;
+  color: #ffffff;
 }
 .play-video {
   display: flex;
   width: 61px;
   height: 15px;
-  /* font-family: Inter; */
+  font-family: Inter;
   font-weight: 500;
   font-size: 12px;
   line-height: 14.52px;
@@ -597,16 +654,22 @@ body {
   padding-left: 70px;
 }
 .hire-us-quote {
+  display: flex;
+  flex-direction: column;
   width: 370px;
   height: 180px;
   gap: 32px;
 }
 .hireUs-title {
+  display: flex;
+  flex-direction: column;
   width: 370px;
   height: 100px;
   gap: 34px;
 }
 .hireUs-titleContain {
+  display: flex;
+  flex-direction: column;
   width: 370px;
   height: 65px;
   gap: 10px;
@@ -630,6 +693,11 @@ body {
   line-height: 24px;
   color: #677788;
 }
+.hireUs-divider {
+  width: 370px;
+  height: 1px;
+  background: #ffffff;
+}
 .hireUs-phrase {
   width: 363px;
   height: 48px;
@@ -645,6 +713,8 @@ body {
   color: #ffffff;
 }
 .hire-us-profile {
+  display: flex;
+  flex-direction: column;
   width: 208px;
   height: 123px;
   gap: 20px;
@@ -749,11 +819,24 @@ body {
   line-height: 24px;
   color: #000000;
 }
-.chevron-down {
+.form-control-dropdown {
+  display: flex;
+  align-items: center;
+  width: 186px;
+  height: 44px;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border: 1px solid #e6e8f2;
+}
+.chevronDown {
   width: 9px;
   height: 24px;
   border-width: 0.5px;
-  font-family: Font Awesome 6 Free;
   font-weight: 900;
   font-size: 10px;
   line-height: 24px;
@@ -895,6 +978,8 @@ body {
   color: #ffffff;
 }
 .hireUs-person {
+  display: flex;
+  flex-direction: column;
   width: 208px;
   height: 43px;
   gap: 4px;
@@ -919,6 +1004,7 @@ body {
   color: #677788;
 }
 .hireUs-personImg {
+  display: flex;
   width: 60px;
   height: 60px;
   gap: 30px;
@@ -966,11 +1052,17 @@ body {
   display: flex;
   width: 100%;
   height: 17px;
+  gap: 10px;
 }
-.location-arrow {
+.locationIconContain {
+  display: flex;
+  width: 11px;
+  height: 14px;
+  padding-top: 2px;
+}
+.arrowIcon {
   width: 11px;
   height: 12px;
-  /* font-family: Font Awesome 6 Free; */
   font-weight: 900;
   font-size: 12px;
   line-height: 12px;
@@ -988,13 +1080,21 @@ body {
   display: flex;
   width: 150px;
   height: 17px;
-  gap: 9px;
+  gap: 10px;
 }
-.phone-icon {
+.phoneIconContain {
+  display: flex;
   width: 12px;
   height: 14px;
-  gap: 10px;
   padding-top: 2px;
+}
+.phoneIcon {
+  width: 12px;
+  height: 12px;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 12px;
+  color: #677788;
 }
 .footer-phone-number {
   width: 129px;
@@ -1268,7 +1368,7 @@ body {
   color: #677788;
 }
 .resourcesHelpText {
-  width: 32px;
+  width: 91px;
   height: 17px;
   font-family: SF Pro;
   font-weight: 510;
