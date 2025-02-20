@@ -650,9 +650,249 @@ body {
   gap: 20px;
 }
 .hire-us-form {
+  display: flex;
   width: 482px;
   height: 648px;
   gap: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 482px;
+  height: 648px;
+  gap: 37px;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: #ffffff;
+}
+.formData {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 392px;
+  height: 506px;
+  gap: 10px;
+}
+.formHeader {
+  display: flex;
+  width: 392px;
+  height: 48px;
+  font-family: SF Pro;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.form-group {
+  display: flex;
+  width: 392px;
+  height: 44px;
+  gap: 20px;
+}
+.form-control {
+  display: flex;
+  width: 186px;
+  height: 44px;
+  gap: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  border-width: 1px;
+  border: 1px solid #e6e8f2;
+}
+.form-control-text-info {
+  display: flex;
+  width: 71px;
+  height: 24px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 24px;
+  color: #828282;
+}
+.form-control-text-email {
+  display: flex;
+  width: 37px;
+  height: 24px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 24px;
+  color: #828282;
+}
+.form-control-email {
+  display: flex;
+  width: 392px;
+  height: 44px;
+  gap: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  border-width: 1px;
+  border: 1px solid #e6e8f2;
+}
+.selectBudget {
+  width: 49px;
+  height: 24px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.selectCountry {
+  width: 55px;
+  height: 24px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.chevron-down {
+  width: 9px;
+  height: 24px;
+  border-width: 0.5px;
+  font-family: Font Awesome 6 Free;
+  font-weight: 900;
+  font-size: 10px;
+  line-height: 24px;
+  color: #000000;
+}
+.form-textArea {
+  display: flex;
+  width: 392px;
+  height: 150px;
+  gap: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  border-width: 1px;
+  border: 1px solid #e6e8f2;
+}
+.textarea1 {
+  width: 355px;
+  height: 44px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 22px;
+  color: #828282;
+}
+.textarea-content {
+  width: 355px;
+  height: 44px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 22px;
+  color: #828282;
+}
+.form-group-end {
+  display: flex;
+  width: 392px;
+  height: 76px;
+  gap: 16px;
+  border-radius: 5px;
+}
+.form-control-end-input {
+  width: 25px;
+  height: 28px;
+  padding-top: 4px;
+  gap: 10px;
+}
+.checkbox {
+  width: 25px;
+  height: 24px;
+  border-radius: 3px;
+  border-width: 1px;
+  border: 1px solid #e6e8f2;
+}
+.form-control-end-label {
+  display: flex;
+  flex-direction: column;
+  width: 351px;
+  height: 76px;
+  gap: 10px;
+}
+.email-consent-text {
+  width: 351px;
+  height: 44px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 22px;
+  color: #828282;
+}
+.privacy-policy-container {
+  display: flex;
+  width: 290px;
+  height: 22px;
+  gap: 28px;
+}
+.privacy-policy-context {
+  display: flex;
+  flex-direction: column;
+  width: 131px;
+  height: 22px;
+}
+.ppc-text1 {
+  width: 136px;
+  height: 22px;
+  font-family: SF Pro;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #677788;
+}
+.ppc-text2 {
+  width: 136px;
+  height: 22px;
+  font-family: SF Pro;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #2476ff;
+}
+.border-bottom-1 {
+  width: 131px;
+  height: 1px;
+  border-width: 1px;
+  border: 1px solid #677788;
+}
+.border-bottom-2 {
+  width: 131px;
+  height: 1px;
+  border-width: 1px;
+  border: 1px solid #2476ff;
+}
+.formAction {
+  display: flex;
+  width: 125px;
+  height: 45px;
+  gap: 24px;
+}
+.formButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+  height: 45px;
+  gap: 8px;
+  border-radius: 30px;
+  padding-top: 15px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  background: #2476ff;
+}
+.formButtonText {
+  width: 75px;
+  height: 15px;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14.52px;
+  color: #ffffff;
 }
 .hireUs-person {
   width: 208px;
@@ -696,50 +936,343 @@ body {
   height: 246px;
   gap: 40px;
   padding: 40px 30px;
-  border: 1px solid black;
 }
 .footer-content {
   display: flex;
   width: 964px;
   height: 166px;
   gap: 40px;
-  border: 1px solid black;
 }
 .footer-contact {
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   width: 251px;
   height: 93.76px;
   gap: 20px;
-  border: 1px solid black;
+}
+.footer-logo {
+  width: 100px;
+  height: 29.76px;
+}
+.footer-contact-container {
+  display: flex;
+  flex-direction: column;
+  width: 251px;
+  height: 44px;
+  gap: 10px;
+}
+.footer-menu-item-1 {
+  display: flex;
+  width: 100%;
+  height: 17px;
+}
+.location-arrow {
+  width: 11px;
+  height: 12px;
+  /* font-family: Font Awesome 6 Free; */
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 12px;
+  color: #677788;
+}
+.footer-location-text {
+  width: 231px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 16.71px;
+}
+.footer-menu-item-2 {
+  display: flex;
+  width: 150px;
+  height: 17px;
+  gap: 9px;
+}
+.phone-icon {
+  width: 12px;
+  height: 14px;
+  gap: 10px;
+  padding-top: 2px;
+}
+.footer-phone-number {
+  width: 129px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 16.71px;
+  color: #2546ff;
 }
 .footer-links {
   display: flex;
   width: 673px;
   height: 166px;
   gap: 49px;
-  border: 1px solid black;
 }
 .footer-company {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   width: 110px;
   height: 166px;
   gap: 20px;
-  border: 1px solid black;
+}
+.company-header {
+  width: 88px;
+  height: 21px;
+  font-family: SF Pro;
+  font-weight: 860;
+  font-size: 18px;
+  line-height: 21.48px;
+  color: #000000;
+}
+.company-nav {
+  display: flex;
+  flex-direction: column;
+  width: 110px;
+  height: 125px;
+  gap: 10px;
+}
+.company-menu-item {
+  width: 110px;
+  height: 17px;
+  gap: 9px;
+}
+.company-about {
+  width: 41px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 16.71px;
+  color: #677788;
+}
+.company-blog {
+  width: 31px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 16.71px;
+  color: #677788;
+}
+.company-customers {
+  width: 74px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 16.71px;
+  color: #677788;
+}
+.company-hireus {
+  width: 48px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 16.71px;
+  color: #677788;
+}
+.company-menu-item-2 {
+  display: flex;
+  flex-direction: row;
+  width: 110px;
+  height: 17px;
+  gap: 9px;
+}
+.company-career {
+  width: 46px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 16.71px;
+  color: #677788;
+}
+.career-badge {
+  width: 55px;
+  height: 14px;
+  gap: 10px;
+  border-radius: 3px;
+  padding: 2px 4px;
+  background-color: #2576ff;
+}
+.career-badge-text {
+  width: 47px;
+  height: 10px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 8px;
+  line-height: 9.55px;
+  color: #ffffff;
 }
 .footer-features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 95px;
   height: 139px;
   gap: 20px;
-  border: 1px solid black;
 }
+.features-nav {
+  display: flex;
+  flex-direction: column;
+  width: 95px;
+  height: 98px;
+  gap: 10px;
+}
+.features-menuItem {
+  width: 95px;
+  height: 17px;
+  gap: 9px;
+}
+.features-press {
+  width: 38px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 16.71px;
+  color: #677788;
+}
+.features-releaseNotes {
+  width: 95px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 16.71px;
+  color: #677788;
+}
+.features-integrations {
+  width: 82px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 16.71px;
+  color: #677788;
+}
+.features-pricing {
+  width: 48px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 16.71px;
+  color: #677788;
+}
+
 .footer-documentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 143px;
   height: 166px;
   gap: 20px;
-  border: 1px solid black;
+}
+.documentation-nav {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  height: 125px;
+  gap: 10px;
+}
+.documentation-menuItem {
+  width: 130px;
+  height: 125px;
+  gap: 10px;
+}
+.documentation-support {
+  width: 55px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 16.71px;
+  color: #677788;
+}
+.documentation-docs {
+  width: 35px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 16.71px;
+  color: #677788;
+}
+.documentation-status {
+  width: 44px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 16.71px;
+  color: #677788;
+}
+.documentation-apiReference {
+  width: 130px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 16.71px;
+  color: #677788;
+}
+.documentation-techReqs {
+  width: 55px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 16.71px;
+  color: #677788;
 }
 .footer-resources {
+  display: flex;
+  flex-direction: column;
   width: 112px;
   height: 85px;
   gap: 20px;
-  border: 1px solid black;
+}
+.resources-nav {
+  display: flex;
+  flex-direction: column;
+  width: 112px;
+  height: 44px;
+  gap: 10px;
+}
+.resources-menuItem {
+  display: flex;
+  width: 112px;
+  height: 17px;
+  gap: 9px;
+}
+.resourcesIconContain {
+  display: flex;
+  align-items: center;
+  width: 12px;
+  height: 14px;
+  gap: 10px;
+  padding-top: 2px;
+}
+.resourcesIcon {
+  width: 12px;
+  height: 12px;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 12px;
+  color: #677788;
+}
+.resourcesHelpText {
+  width: 32px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 16.71px;
+  color: #677788;
 }
