@@ -36,15 +36,15 @@ Please visit the [project mockups page](https://www.figma.com/design/Ou3rfktmwkX
 
 `Desktop specific`
 
-- [ ] Transitions and keyframe animations should be functional for desktop devices only.
+- [x] Transitions and keyframe animations should be functional for desktop devices only.
 - [ ] The icons in the top section must appear with animations. Use at least two different animations or animation directions.
-- [ ] The following items must include hover animations:
+- [x] The following items must include hover animations:
 
-  - [ ] Top navigation items
-  - [ ] All buttons (e.g., buy, play, form submit) (use the inverse colors for the border, background, text color and the icon color for the hovered state)
+  - [x] Top navigation items
+  - [x] All buttons (e.g., buy, play, form submit) (use the inverse colors for the border, background, text color and the icon color for the hovered state)
   - [x] The main price box in the "Pricing" section (add the shadow around the box for the hovered state)
-  - [ ] Bottom navigation items
-  - [ ] "View privacy policy" link in the form
+  - [x] Bottom navigation items
+  - [x] "View privacy policy" link in the form
 
 `Tablet and mobile specific`
 
