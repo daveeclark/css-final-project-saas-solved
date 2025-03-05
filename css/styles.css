@@ -24,10 +24,10 @@ body {
   height: 532px;
 }
 .top-section-content {
-  /* display: flex; */
   width: 100%;
   height: 532px;
 }
+/* TODO: adjust width */
 .topSectionBackground {
   position: absolute;
   z-index: -1;
@@ -135,14 +135,14 @@ body {
   font-size: 12px;
   line-height: 14.52px;
 }
+
+/* leftPart */
 .hero-section {
   display: flex;
   height: 446px;
   width: 100%;
   padding: 40px 30px 0px 30px;
 }
-
-/* leftPart */
 .mission {
   display: flex;
   flex-direction: column;
@@ -447,18 +447,13 @@ body {
 .pricing-description {
   font-weight: 500;
   line-height: 19.36px;
+  color: #677788;
 }
 .plans-features-list {
   display: flex;
   height: 452px;
   flex: 1;
   padding: 0 30px;
-  gap: 30px;
-}
-.pricing-table {
-  display: flex;
-  width: 964px;
-  height: 452px;
   gap: 30px;
 }
 .plan-features {
@@ -573,21 +568,25 @@ body {
   display: flex;
   width: 100%;
   height: 219px;
+  gap: 10px;
 }
 .rowTwo {
   display: flex;
   width: 100%;
   height: 219px;
+  gap: 10px;
 }
 
-.planFeatureItem {
+.planFeatureItem,
+.planFeatureItem2 {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 277px;
   height: 219px;
 }
-.itemContent {
+.itemContent,
+.itemContent2 {
   display: flex;
   flex-direction: column;
   width: 237px;
@@ -616,6 +615,7 @@ body {
   color: #677788;
 }
 .planFeatureItem3 {
+  display: flex;
   width: 277px;
   height: 201px;
   padding: 20px;
@@ -625,8 +625,6 @@ body {
 .item3-itemContent {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 237px;
   height: 161px;
   gap: 20px;
@@ -990,7 +988,8 @@ body {
   height: 22px;
   gap: 28px;
 }
-.privacy-policy-context {
+.privacy-policy-context1,
+.privacy-policy-context2 {
   display: flex;
   flex-direction: column;
   width: 131px;
@@ -1206,6 +1205,10 @@ body {
   width: 673px;
   height: 166px;
   gap: 49px;
+}
+.footer-links-container1,
+.footer-links-container2 {
+  display: none;
 }
 .footer-company {
   display: flex;

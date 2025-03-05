@@ -1,0 +1,335 @@
+/* Desktop */
+@media (min-width: 1024px) {
+  .top-nav .trigram {
+    display: none;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .asana,
+  .calendar,
+  .weave,
+  .paypal,
+  .atlassian {
+    animation: none;
+  }
+  .googleAds,
+  .google {
+    animation: none;
+  }
+  .top-nav ul,
+  .buy-now-btn {
+    display: none;
+  }
+  .top-section {
+    height: 750px;
+  }
+  .top-section-content {
+    height: 750px;
+  }
+  .topSectionBackground {
+    width: 100%;
+    height: 517px;
+    top: -1px;
+    left: 1px;
+  }
+  .header-content {
+    height: 86px;
+    align-items: center;
+  }
+  .logo-icon {
+    width: 154.89px;
+    height: 46.1px;
+  }
+  .fa-bars {
+    width: 18px;
+    height: 20px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 20px;
+    color: #677788;
+  }
+  .hero-section {
+    height: 664px;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mission {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 305px;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .title {
+    width: 400px;
+    height: 76px;
+    white-space: nowrap;
+    overflow: visible;
+    text-align: center;
+  }
+  .act {
+    width: 712px;
+    height: 48px;
+    justify-content: center;
+  }
+  .logos {
+    width: 100%;
+    height: 309px;
+  }
+  .asana {
+    left: 533px;
+  }
+  .calendar {
+    top: 229px;
+    left: 517px;
+  }
+  .weave {
+    top: 99px;
+    left: 414px;
+  }
+  .paypal {
+    top: 99px;
+    left: 112px;
+  }
+  .atlassian {
+    left: 287px;
+  }
+  .googleAds {
+    top: 209px;
+    left: 230px;
+  }
+  .google {
+    left: 110px;
+  }
+
+  /* Why front section */
+  .why-front-section {
+    width: 100%;
+    height: 354px;
+    align-items: center;
+    padding-bottom: 80px;
+    gap: 40px;
+  }
+  .bullets-list {
+    display: flex;
+    justify-content: center;
+    width: 768px;
+    height: 145px;
+    padding-right: 34px;
+    padding-left: 34px;
+  }
+  .bullet {
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    height: 145px;
+    gap: 24px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+  .bullet-top {
+    width: 175px;
+  }
+  .leftWing {
+    width: 58.5px;
+    height: 1px;
+    background: #e6e9f2;
+  }
+  .leftWingEmpty {
+    width: 58.5px;
+    height: 1px;
+  }
+  .rightWing {
+    width: 58.5px;
+    height: 1px;
+    background: #e6e9f2;
+  }
+  .rightWingEmpty {
+    width: 58.5px;
+    height: 1px;
+  }
+  .bullet-title {
+    width: 175px;
+    height: 19px;
+  }
+
+  /* pricingSection */
+  .pricing-section {
+    width: 100%;
+    height: 1013px;
+  }
+  .plans-features-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pricing-plan {
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+    height: 373px;
+    padding: 40px;
+    gap: 50px;
+    border: 1px solid #e2e2e2;
+  }
+  .plan-features {
+    width: 680px;
+    height: 430px;
+    gap: 10px;
+  }
+  .planFeatureItem {
+    width: 335px;
+    height: 219px;
+    padding: 20px;
+    gap: 20px;
+    border: 1px solid #ffffff;
+  }
+  .planFeatureItem2 {
+    width: 335px;
+    height: 197px;
+    padding: 20px;
+    gap: 20px;
+    border: 1px solid #ffffff;
+  }
+  .itemContent {
+    width: 295px;
+    height: 179px;
+  }
+  .itemContent2,
+  .item4-itemContent {
+    width: 295px;
+    height: 157px;
+  }
+  .rowTwo {
+    height: 201px;
+  }
+  .planFeatureItem3 {
+    width: 335px;
+    height: 201px;
+    padding: 20px;
+    gap: 20px;
+    border: 1px solid #ffffff;
+  }
+  .item3-itemContent {
+    width: 295px;
+    height: 161px;
+  }
+  .planFeatureItem4 {
+    width: 335px;
+    height: 197px;
+    gap: 20px;
+    border-width: 1px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+  }
+  /* hire us section */
+  .hire-us-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 984px;
+  }
+  .hire-us-info {
+    flex-direction: row;
+    width: 708px;
+    height: 240px;
+    padding: 40px 30px 20px 30px;
+  }
+  .hire-us-form {
+    justify-content: center;
+    width: 708px;
+    height: 684px;
+    padding: 30px;
+  }
+  .form {
+    width: 100%;
+    height: 648px;
+  }
+  .formData {
+    width: 588px;
+    height: 482px;
+    gap: 10px;
+  }
+  .formHeader {
+    width: 588px;
+    height: 24px;
+  }
+  .form-group,
+  .form-control-email {
+    width: 588px;
+    height: 44px;
+  }
+  .form-control {
+    width: 284px;
+  }
+  .form-control-dropdown {
+    width: 284px;
+    height: 44px;
+  }
+  .form-textArea {
+    width: 588px;
+  }
+  .form-group-end {
+    width: 588px;
+  }
+  .form-control-end-label {
+    width: 574px;
+  }
+  .email-consent-text {
+    width: 547px;
+  }
+  .formAction {
+    justify-content: center;
+  }
+  .privacy-policy-context2 {
+    display: none;
+  }
+  .footer-container {
+    width: 100%;
+    height: 501px;
+    padding: 80px 30px 40px 30px;
+  }
+  .footer-content {
+    width: 100%;
+    height: 381px;
+  }
+  .footer-contact {
+    width: 251px;
+    height: 93.76113891601562px;
+  }
+  .footer-links {
+    flex-direction: column;
+    width: 417px;
+    height: 381px;
+  }
+  .footer-links-container1 {
+    display: flex;
+    width: 417px;
+    height: 166px;
+    gap: 80px;
+  }
+  .footer-links-container2 {
+    display: flex;
+    width: 304px;
+    height: 166px;
+    gap: 49px;
+  }
+}
+
+/* Mobile */
+@media (min-width: 360px) and (max-width: 767px) {
+  .asana,
+  .calendar,
+  .weave,
+  .paypal,
+  .atlassian {
+    animation: none;
+  }
+  .googleAds,
+  .google {
+    animation: none;
+  }
+}
