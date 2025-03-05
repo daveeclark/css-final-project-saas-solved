@@ -127,6 +127,9 @@ body {
   color: #2476ff;
   border: 1px solid #2476ff;
 }
+.fa-bars {
+  display: none;
+}
 .buy-now-content {
   width: 52px;
   height: 15px;
@@ -146,16 +149,15 @@ body {
 .mission {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 482px;
   height: 406px;
   padding-bottom: 60px;
   gap: 30px;
-  align-items: flex-start;
   justify-content: center;
 }
 .title {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   width: 334px;
   height: 172px;
   gap: 11px;

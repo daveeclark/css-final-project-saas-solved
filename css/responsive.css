@@ -62,14 +62,22 @@
     width: 100%;
     height: 305px;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
   }
   .title {
     width: 400px;
     height: 76px;
-    white-space: nowrap;
-    overflow: visible;
     text-align: center;
+    align-items: center;
+  }
+  .title h1 {
+    width: 1435px;
+    height: 48px;
+  }
+  .title p {
+    width: 334px;
+    height: 17px;
+    line-height: 16.94px;
   }
   .act {
     width: 712px;
@@ -331,5 +339,203 @@
   .googleAds,
   .google {
     animation: none;
+  }
+  .topNav-home,
+  .topNav-features,
+  .topNav-learn,
+  .topNav-pricing,
+  .topNav-hire,
+  .buy-now-btn {
+    display: none;
+  }
+  .top-section {
+    height: 705px;
+  }
+  .top-section-content {
+    height: 680px;
+  }
+  .topSectionBackground {
+    width: 100%;
+    height: 517px;
+    top: -1px;
+    left: 1px;
+  }
+  .header-content {
+    height: 86px;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+  }
+  .logo-icon {
+    width: 154.89999389648438px;
+    height: 46.099998474121094px;
+    gap: 10px;
+  }
+  .top-nav {
+    width: 46px;
+    height: 32px;
+    gap: 30px;
+    padding: 6px 14px;
+  }
+  .fa-bars {
+    width: 18px;
+    height: 20px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 20px;
+    color: #677788;
+  }
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 594px;
+    gap: 10px;
+    padding: 40px 16px 0px 16px;
+  }
+  .mission {
+    align-items: center;
+    width: 100%;
+    height: 235px;
+  }
+  .title {
+    width: 328px;
+    height: 107px;
+  }
+  .title h1 {
+    width: 100%;
+    height: 62px;
+    font-size: 26px;
+    line-height: 31.47px;
+    text-align: center;
+  }
+  .title p {
+    width: 100%;
+    height: 34px;
+    line-height: 16.94px;
+    text-align: center;
+  }
+  .act {
+    width: 328px;
+    justify-content: center;
+  }
+  .logos {
+    width: 100%;
+    height: 309px;
+  }
+  .asana {
+    left: 248px;
+  }
+  .calendar {
+    top: 219px;
+    left: 239px;
+  }
+  .weave {
+    top: 99px;
+    left: 184px;
+  }
+  .paypal {
+    top: 99px;
+  }
+  .paypal img {
+    width: 48px;
+    height: 48px;
+  }
+  .atlassian {
+    left: 114px;
+  }
+  .googleAds {
+    top: 209px;
+    left: 106px;
+  }
+  .google {
+    top: 10px;
+    left: 64px;
+  }
+
+  /* Why front section */
+  .why-front-section {
+    height: 488px;
+    padding-bottom: 60px;
+  }
+  .why-front-title {
+    width: 360px;
+    height: 137px;
+    padding: 0 16px;
+  }
+  .bullets-list {
+    flex-direction: column;
+    width: 100%;
+    height: 251px;
+    gap: 17px;
+    padding: 0 34px;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftWing,
+  .leftWingEmpty,
+  .rightWing,
+  .rightWingEmpty {
+    display: none;
+  }
+  .bullet {
+    flex-direction: row;
+    align-items: center;
+    width: 292px;
+    height: 50px;
+  }
+  .bullet-top {
+    width: 50px;
+    height: 50px;
+    gap: 4px;
+  }
+  .bullet-title {
+    width: 218px;
+    height: 19px;
+  }
+
+  /* pricingSection */
+  .pricing-section {
+    height: 1451px;
+    padding-bottom: 60px;
+  }
+  .pricing-info {
+    height: 60px;
+  }
+  .plans-features-list {
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    height: 1271px;
+    padding: 0 16px;
+  }
+  .pricing-plan {
+    align-items: center;
+    width: 328px;
+    height: 397px;
+  }
+  .plan-header {
+    justify-content: center;
+    width: 248px;
+    height: 194px;
+  }
+  .plan-footer {
+    height: 73px;
+  }
+  .plan-price {
+  }
+  .plan-features {
+    height: 844px;
+    gap: 10px;
+  }
+  .rowOne {
+    flex-direction: column;
+    height: 426px;
+    gap: 10px;
+  }
+  .rowTwo {
+    flex-direction: column;
+    height: 480px;
+    gap: 10px;
   }
 }
