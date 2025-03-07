@@ -18,7 +18,11 @@
   .google {
     animation: none;
   }
-  .top-nav ul,
+  .topNav-home,
+  .topNav-features,
+  .topNav-learn,
+  .topNav-pricing,
+  .topNav-hire,
   .buy-now-btn {
     display: none;
   }
@@ -41,6 +45,10 @@
   .logo-icon {
     width: 154.89px;
     height: 46.1px;
+  }
+  .top-nav {
+    width: 46px;
+    height: 32px;
   }
   .fa-bars {
     width: 18px;
@@ -177,11 +185,32 @@
   .pricing-plan {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 680px;
     height: 373px;
     padding: 40px;
     gap: 50px;
     border: 1px solid #e2e2e2;
+  }
+  .plan-header {
+    align-items: center;
+    width: 600px;
+    height: 170px;
+    gap: 30px;
+  }
+  .plan-price {
+    width: 114px;
+    height: 61px;
+  }
+  .plan-divider {
+    width: 100%;
+  }
+  .plan-text {
+    width: 600px;
+    height: 48px;
+  }
+  .plan-footer {
+    height: 73px;
   }
   .plan-features {
     width: 680px;
@@ -387,8 +416,6 @@
   }
   .hero-section {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
     height: 594px;
     gap: 10px;
     padding: 40px 16px 0px 16px;
@@ -449,8 +476,8 @@
     left: 106px;
   }
   .google {
-    top: 10px;
-    left: 64px;
+    /* top: 10px;
+    left: 64px; */
   }
 
   /* Why front section */
@@ -498,6 +525,7 @@
   .pricing-section {
     height: 1451px;
     padding-bottom: 60px;
+    align-items: center;
   }
   .pricing-info {
     height: 60px;
@@ -531,11 +559,409 @@
   .rowOne {
     flex-direction: column;
     height: 426px;
-    gap: 10px;
+  }
+  .planFeatureItem {
+    width: 328px;
+    height: 219px;
+    padding: 20px 0;
+    gap: 20px;
+    justify-content: unset;
+    align-items: unset;
+  }
+  .planFeatureItem2 {
+    width: 328px;
+    height: 197px;
+    padding: 20px 0;
+    gap: 20px;
+    justify-content: unset;
+    align-items: unset;
+  }
+  .itemContent-content {
+    width: 328px;
   }
   .rowTwo {
     flex-direction: column;
-    height: 480px;
-    gap: 10px;
+    height: 408px;
+  }
+  .planFeatureItem3,
+  .planFeatureItem4 {
+    width: 328px;
+    padding: 20px 0;
+  }
+  .item3-itemContent,
+  .item3-topPart,
+  .item3-bottomPart,
+  .item3-bottomPartText,
+  .item4-itemContent,
+  .item4-contentText {
+    width: 328px;
+  }
+
+  /* hire us section */
+  .hire-us-section {
+    height: 1337px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hire-us-info {
+    width: 362px;
+    height: 457px;
+    padding: 0;
+    align-items: center;
+  }
+  .hire-us-quote {
+    width: 330px;
+    height: 204px;
+  }
+  .hireUs-title {
+    width: 330px;
+  }
+  .hireUs-titleContain {
+    width: 330px;
+    align-items: center;
+    text-align: center;
+  }
+  .hireUs-divider {
+    width: 330px;
+  }
+  .hireUs-phrase {
+    width: 330px;
+    height: 72px;
+    text-align: center;
+  }
+  .hire-us-profile {
+    width: 330px;
+    height: 133px;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+  }
+  .hireUs-person,
+  .personTitle {
+    width: 330px;
+    align-items: center;
+  }
+  .hire-us-form {
+    width: 362px;
+    height: 880px;
+    padding: 30px 16px;
+  }
+  .form {
+    width: 330px;
+    height: 820px;
+  }
+  .formData {
+    width: 270px;
+    height: 678px;
+    gap: 20px;
+  }
+  .formHeader {
+    width: 270px;
+  }
+  .form-group {
+    flex-direction: column;
+    width: 270px;
+    height: 108px;
+    gap: 20px;
+  }
+  .form-group-email {
+    height: 44px;
+  }
+  .form-control,
+  .form-control-email {
+    width: 270px;
+  }
+  .form-control-dropdown {
+    width: 270px;
+  }
+  .form-textArea {
+    width: 270px;
+  }
+  .form-group-end {
+    width: 270px;
+    height: 120px;
+  }
+  .form-control-end-label {
+    width: 229px;
+    height: 120px;
+  }
+  .email-consent-text {
+    width: 229px;
+    height: 88px;
+  }
+  .ppc-text2,
+  .border-bottom-2 {
+    display: none;
+  }
+
+  /* footer */
+  .footer {
+    width: 100%;
+  }
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1151.76px;
+    padding: 80px 16px 40px 16px;
+  }
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1031.76px;
+  }
+  .footer-contact {
+    width: 328px;
+    height: 111.76px;
+    align-items: center;
+  }
+  .footer-contact-container {
+    width: 328px;
+    height: 111.76px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-menu-item-1 {
+    width: 316px;
+    height: 21px;
+    gap: 9px;
+    text-align: center;
+    align-items: center;
+  }
+  .arrowIcon {
+    line-height: 100%;
+  }
+  .footer-location-text {
+    width: 296px;
+    height: 21px;
+    font-size: 18px;
+    line-height: 100%;
+  }
+  .footer-menu-item-2 {
+    width: 186px;
+    height: 21px;
+    gap: 9px;
+    text-align: center;
+    align-items: center;
+  }
+  .footer-phone-number {
+    width: 165px;
+    height: 21px;
+    font-weight: 510;
+    font-size: 18px;
+    line-height: 100%;
+  }
+  .footer-links {
+    flex-direction: column;
+    width: 328px;
+    height: 880px;
+    gap: 49px;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-links-container1,
+  .footer-links-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 328px;
+  }
+  .footer-links-container1 {
+    height: 447px;
+    gap: 30px;
+  }
+  .footer-links-container2 {
+    height: 384px;
+    gap: 49px;
+  }
+  .footer-company {
+    align-items: center;
+    width: 123px;
+    height: 229px;
+  }
+  .company-header {
+    width: 97px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 100%;
+  }
+  .company-nav {
+    width: 123px;
+    height: 185px;
+    gap: 20px;
+    display: flex;
+  }
+  .company-menu-item,
+  .company-menu-item-2 {
+    display: flex;
+    width: 123px;
+    height: 21px;
+    gap: 9px;
+    justify-content: center;
+  }
+  .company-about {
+    width: 53px;
+    height: 21px;
+    font-size: 18px;
+    line-height: 100%;
+  }
+  .company-blog {
+    width: 39px;
+    height: 21px;
+    font-size: 18px;
+    line-height: 100%;
+  }
+  .company-customers {
+    width: 94px;
+    height: 21px;
+    font-size: 18px;
+    line-height: 100%;
+  }
+  .company-hireus {
+    width: 61px;
+    height: 21px;
+    font-size: 18px;
+    line-height: 100%;
+  }
+  .company-career {
+    width: 59px;
+    height: 21px;
+    font-size: 18px;
+    line-height: 100%;
+  }
+  .footer-features {
+    width: 328px;
+    height: 188px;
+    align-items: center;
+  }
+  .company-features {
+    width: 90px;
+    height: 24px;
+    font-family: SF Pro;
+    font-weight: 860;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+  }
+  .features-nav {
+    display: flex;
+    width: 121px;
+    height: 144px;
+    gap: 20px;
+  }
+  .features-menuItem {
+    display: flex;
+    width: 121px;
+    height: 21px;
+    gap: 9px;
+    justify-content: center;
+  }
+  .features-menuItem p {
+    height: 21px;
+    font-size: 18px;
+    line-height: 100%;
+  }
+  .features-press {
+    width: 49px;
+  }
+  .features-releaseNotes {
+    width: 121px;
+  }
+  .features-integrations {
+    width: 105px;
+  }
+  .features-pricing {
+    width: 61px;
+  }
+
+  .footer-documentation {
+    width: 328px;
+    height: 229px;
+    justify-content: center;
+    align-items: center;
+  }
+  .company-documentation {
+    width: 157px;
+    height: 24px;
+    font-family: SF Pro;
+    font-weight: 860;
+    font-size: 20px;
+    line-height: 100%;
+  }
+  .documentation-nav {
+    display: flex;
+    width: 166px;
+    height: 185px;
+    gap: 20px;
+    justify-content: center;
+  }
+  .documentation-menuItem {
+    display: flex;
+    width: 166px;
+    height: 21px;
+    gap: 9px;
+    justify-content: center;
+  }
+  .documentation-menuItem p {
+    height: 21px;
+    font-size: 18px;
+    line-height: 100%;
+  }
+  .documentation-support {
+    width: 70px;
+  }
+  .documentation-docs {
+    width: 44px;
+  }
+  .documentation-status {
+    width: 56px;
+  }
+  .documentation-apiReference {
+    width: 122px;
+  }
+  .documentation-techReqs {
+    width: 166px;
+  }
+
+  .footer-resources {
+    width: 328px;
+    height: 106px;
+    align-items: center;
+    justify-content: center;
+  }
+  .company-resources {
+    display: flex;
+    width: 108px;
+    height: 24px;
+    font-family: SF Pro;
+    font-weight: 860;
+    font-size: 20px;
+    line-height: 100%;
+  }
+  .resources-nav {
+    display: flex;
+    width: 137px;
+    height: 62px;
+    gap: 20px;
+    justify-content: center;
+  }
+  .resources-menuItem {
+    width: 137px;
+    height: 21px;
+    justify-content: center;
+  }
+  .resourcesHelpText {
+    width: 41px;
+    height: 21px;
+    font-size: 18px;
+    line-height: 100%;
+  }
+  .resourcesYourAccountText {
+    width: 116px;
+    height: 21px;
+    font-size: 18px;
+    line-height: 100%;
   }
 }
